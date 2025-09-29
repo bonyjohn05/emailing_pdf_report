@@ -52,6 +52,7 @@ Example – PDF report received via email using custom dashboard created for SSH
    which opensearch-reporting-cli
    ```
    You should see an output similar to:
+
    <img width="617" height="84" alt="image" src="https://github.com/user-attachments/assets/719c8789-0d5f-4833-8d45-c10b8ca732aa" />
 
 5. Install Google Chrome (required by CLI)
