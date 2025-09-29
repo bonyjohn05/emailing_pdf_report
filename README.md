@@ -54,7 +54,7 @@ Example – PDF report received via email using custom dashboard created for SSH
    You should see an output similar to:
    <img width="617" height="84" alt="image" src="https://github.com/user-attachments/assets/719c8789-0d5f-4833-8d45-c10b8ca732aa" />
 
-4. Install Google Chrome (required by CLI)
+5. Install Google Chrome (required by CLI)
    ```bash
    sudo rpm --import https://dl.google.com/linux/linux_signing_key.pub
    cat <<'EOF' | sudo tee /etc/yum.repos.d/google-chrome.repo
@@ -70,7 +70,7 @@ Example – PDF report received via email using custom dashboard created for SSH
    export CHROME_PATH=/usr/bin/google-chrome
    $CHROME_PATH --version
    ```
-5. Create the Report Script
+6. Create the Report Script
    ```bash
    sudo tee /usr/local/sbin/wazuh_report.sh >/dev/null <<'EOF'
    #!/usr/bin/env bash
@@ -147,7 +147,7 @@ Example – PDF report received via email using custom dashboard created for SSH
    - FROM="<sender>@gmail.com" → Sender address
    - TO="<receiver>@gmail.com" → Receiver address
 
-6. Test it manually:
+7. Test it manually:
    ```bash
    sudo /usr/local/sbin/wazuh_report.sh
    sudo tail -n 80 /var/log/wazuh-reporting.log
@@ -155,7 +155,7 @@ Example – PDF report received via email using custom dashboard created for SSH
    Expected successful log output:
    <img width="1001" height="213" alt="image" src="https://github.com/user-attachments/assets/0497503a-b4a7-4f3b-85f8-98c9fa7b8c11" />
 
-7. Automate with Cron
+8. Automate with Cron
    - Install and enable cron:
    ```bash
    sudo dnf install -y cronie
