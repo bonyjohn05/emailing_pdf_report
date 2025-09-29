@@ -10,7 +10,7 @@
 This guide explains how to configure Wazuh to automatically generate and send custom dashboard reports in PDF format via email. The generated PDF is identical to the one you download manually from the Wazuh Dashboard.
 
 Example – PDF report received via email:
-<img width="2346" height="1191" alt="image" src="https://github.com/user-attachments/assets/5b6cc9c0-856d-405e-8044-9ee3f696a486" 
+<img width="2346" height="1191" alt="image" src="https://github.com/user-attachments/assets/5b6cc9c0-856d-405e-8044-9ee3f696a486" />
 <img width="2378" height="834" alt="image" src="https://github.com/user-attachments/assets/1b7fc5d1-59d9-4c75-8a4c-276f9b870af0" />
  
 
