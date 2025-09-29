@@ -180,8 +180,8 @@ Example – PDF report received via email:
 Using the OpenSearch Reporting CLI, you can automatically generate Wazuh custom dashboard reports in PDF format and deliver them via email. This process is ideal for daily reports such as vulnerabilities, compliance status, or security events.
 
 ## Reference:
-Wazuh SMTP documentation: https://documentation.wazuh.com/current/user-manual/manager/alert-management.html#smtp-server-with-authentication
-OpenSearch Reporting CLI Documentation: https://docs.opensearch.org/latest/reporting/rep-cli-create/
+- Wazuh SMTP documentation: https://documentation.wazuh.com/current/user-manual/manager/alert-management.html#smtp-server-with-authentication
+- OpenSearch Reporting CLI Documentation: https://docs.opensearch.org/latest/reporting/rep-cli-create/
    
 
 
