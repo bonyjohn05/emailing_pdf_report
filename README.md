@@ -143,10 +143,10 @@ Example – PDF report received via email using custom dashboard created for SSH
    ```
 
    Replace:
-   - URL="<your-dashboard-url>" → Your Step 2 permalink
-   - CREDS="admin:<password>" → Wazuh dashboard user Admin credentials
-   - FROM="<sender>@gmail.com" → Sender address
-   - TO="<receiver>@gmail.com" → Receiver address
+   - `URL="<your-dashboard-url>"` → Your Step 2 permalink
+   - `CREDS="admin:<password>"` → Wazuh dashboard user Admin credentials
+   - `FROM="<sender>@gmail.com"` → Sender address
+   - `TO="<receiver>@gmail.com"` → Receiver address
 
 7. Test it manually:
    ```bash
