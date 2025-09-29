@@ -20,7 +20,7 @@ Example – PDF report received via email using custom dashboard created for SSH
 ### Example: In this guide, we will configure Wazuh to send a Vulnerability Dashboard PDF report via email.
 
 ### Step1: Create Custom dashboard.
-- Refer to the Wazuh documentation for creating custom dashboards (e.g., Vulnerability dashboard).
+- Refer to the [Wazuh documentation](https://documentation.wazuh.com/current/user-manual/wazuh-dashboard/creating-custom-dashboards.html) for creating custom dashboards (e.g., Vulnerability dashboard).
 - If needed, you can import the provided .ndjson sample file of a Vulnerability dashboard.  
 
 ### Step2: Generate the Dashboard URL
